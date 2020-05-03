@@ -28,6 +28,8 @@ over the world of the past 15 minutes.
 
 # Key Terms of Dataset: 
 Event: An event is defined as an action that an actor (Actor1) takes on another actor (Actor2). An actor can be a person, organization, company or location. 
+
+
 Actor 1 and Actor 2 could be any person, location, organization, theme etc., 
 Example: Kartik is passionate about Machine Learning. Here Actor1 is Kartik and Actor 2 is Machine Learning. 
 Mention: A mention is an article or any source that talks about an event. 
