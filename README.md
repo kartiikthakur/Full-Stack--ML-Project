@@ -1,4 +1,4 @@
-##Overview
+## Overview
 
 1. Data Extraction
 2. Data Transformation
@@ -9,7 +9,7 @@
 5. Time Series Analysis
 6. Model Experimentation and Optimization
 
-#Dataset Overview:
+# Dataset Overview:
 Source: https://www.gdeltproject.org/
 GDELT project provides a medium to access the global news. GDELT project breaks down the access and
 language barriers and offer a near real time insights into the world around us. GDELT project makes
@@ -26,7 +26,7 @@ almost quarter billion records.
 Version 2: An updating stream of data which updates every 15 minutes fetching us the news from all
 over the world of the past 15 minutes.
 
-Key Terms of Dataset: 
+# Key Terms of Dataset: 
 Event: An event is defined as an action that an actor (Actor1) takes on another actor (Actor2). An actor can be a person, organization, company or location. 
 Actor 1 and Actor 2 could be any person, location, organization, theme etc., 
 Example: Kartik is passionate about Machine Learning. Here Actor1 is Kartik and Actor 2 is Machine Learning. 
@@ -35,11 +35,13 @@ Goldstein scale represents the level of conflict or cooperation. It ranges betwe
 Average Tone:  average “tone” of all documents containing one or more mentions of this event. 
 QuadClass: This field specifies this primary classification for the event type, allowing analysis at the highest level of aggregation. The numeric codes in this field map to the Quad Classes as follows: 1=Verbal Cooperation, 2=Material Cooperation, 3=Verbal Conflict, 4=Material Conflict.
 
-#Data Engineering:
+# Data Engineering:
 1. Used Google Big Query to extract Quarter billion datapoints from GDELT dataset.
 2. Used PySpark, Python and Amazon Athena to transform the data by eliminating all unnecessary columns.
 3. Created an end to end architecture to extract, preprocess and generate quality insights of the dataset and create a UI to display the visualizations using Amazon EC2 server
 4. Created a Flask framework to work with dynamic version 2 dataset which updates every 15 minutes and display dynamic visualizations on a UI which keeps updating every 15 minutes. (Using crontab services) 
+
+# Machine Learning:
 5. Generated a time series analysis to observe trends and patterns in the dataset
 6. Optimized the model using feature engineering techniques and experimenting with several Machine learning and deep learning algorithms.
   6.1 Support Vector Machines
@@ -55,4 +57,9 @@ QuadClass: This field specifies this primary classification for the event type, 
   6.7 Hyperparameter Tuning
      6.7.1 Grid Search
      6.7.2 Randomized Search
-2. 
+
+# Future Works:
+For example: 
+Predict future Material Conflict or Goldstein Scale Growth Rate using information about the Material Conflict/Goldstein from the past data.  This model could help us know the political stability of a location, Organization etc.  Future Uses:  
+1.This could help homebuyers decides the factors that could impact in buying a house based on the cooperation and conflicts of a location in future. 
+2. This could help countries decide to export/import goods from other countries by predicting the political stability, conflicts, protests, riots of a location in the future. 
