@@ -48,7 +48,9 @@ QuadClass: This field specifies this primary classification for the event type, 
 
 # Machine Learning:
 5. Generated a time series analysis to observe trends and patterns in the dataset
+
 6. Optimized the model using feature engineering techniques and experimenting with several Machine learning and deep learning algorithms.
+
   6.1 Support Vector Machines
   6.2 Logistic Regression
   6.3 Sequential Neural Network
@@ -64,7 +66,10 @@ QuadClass: This field specifies this primary classification for the event type, 
      6.7.2 Randomized Search
 
 # Future Works:
-For example: 
-Predict future Material Conflict or Goldstein Scale Growth Rate using information about the Material Conflict/Goldstein from the past data.  This model could help us know the political stability of a location, Organization etc.  Future Uses:  
+Predict future Material Conflict or Goldstein Scale Growth Rate using information about the Material Conflict/Goldstein from the past data.  This model could help us know the political stability of a location, Organization etc.  
+
+Future Uses:  
+
 1.This could help homebuyers decides the factors that could impact in buying a house based on the cooperation and conflicts of a location in future. 
+
 2. This could help countries decide to export/import goods from other countries by predicting the political stability, conflicts, protests, riots of a location in the future. 
