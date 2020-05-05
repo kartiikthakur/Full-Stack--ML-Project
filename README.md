@@ -39,8 +39,11 @@ QuadClass: This field specifies this primary classification for the event type, 
 
 # Data Engineering:
 1. Used Google Big Query to extract Quarter billion datapoints from GDELT dataset.
+
 2. Used PySpark, Python and Amazon Athena to transform the data by eliminating all unnecessary columns.
+
 3. Created an end to end architecture to extract, preprocess and generate quality insights of the dataset and create a UI to display the visualizations using Amazon EC2 server
+
 4. Created a Flask framework to work with dynamic version 2 dataset which updates every 15 minutes and display dynamic visualizations on a UI which keeps updating every 15 minutes. (Using crontab services) 
 
 # Machine Learning:
