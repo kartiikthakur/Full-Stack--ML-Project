@@ -11,6 +11,8 @@
 
 # Dataset Overview:
 Source: https://www.gdeltproject.org/
+
+
 GDELT project provides a medium to access the global news. GDELT project breaks down the access and
 language barriers and offer a near real time insights into the world around us. GDELT project makes
 massive computations and fetches us the information from every corner of the world. It binds the news
@@ -31,7 +33,9 @@ Event: An event is defined as an action that an actor (Actor1) takes on another 
 
 
 Actor 1 and Actor 2 could be any person, location, organization, theme etc., 
+
 Example: Kartik is passionate about Machine Learning. Here Actor1 is Kartik and Actor 2 is Machine Learning. 
+
 Mention: A mention is an article or any source that talks about an event. 
 Goldstein scale represents the level of conflict or cooperation. It ranges between -10 to 10 where -10 represents extreme Conflict and +10 represents extreme cooperation. 
 Average Tone:  average “tone” of all documents containing one or more mentions of this event. 
