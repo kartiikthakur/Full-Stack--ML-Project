@@ -1,4 +1,4 @@
-##Deliverables of this project:
+## Deliverables of this project:
 
 - Large scale data analysis with 100's of terabytes of version 1 data from the Global Database for Events, Language, and Tone
 - architected and managed efficiently and robust data pipelines using Python, Spark, and AWS that optimize the data analysis
