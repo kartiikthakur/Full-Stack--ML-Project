@@ -1,3 +1,10 @@
+##Deliverables of this project:
+
+- Large scale data analysis with 100's of terabytes of version 1 data from the Global Database for Events, Language, and Tone
+- architected and managed efficiently and robust data pipelines using Python, Spark, and AWS that optimize the data analysis
+- routed the version 2 streaming data to BI tools using Kafka and Cron to provide a data narrative and drive insights through intuitive dashboards
+- ETL version 1 data and performed time series analysis experiments to create a model that predicts future peace index and protests with an accuracy of 63%
+
 ## Overview
 
 1. Data Extraction
