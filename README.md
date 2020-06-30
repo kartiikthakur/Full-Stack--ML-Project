@@ -17,7 +17,7 @@
   4.2 Hyperparameter Tuning
   
 5. Time Series Analysis
-6. Model Experimentation and Optimization
+6. Model Creation and Optimization
 
 # Dataset Overview:
 Source: https://www.gdeltproject.org/
